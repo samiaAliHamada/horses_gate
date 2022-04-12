@@ -1,0 +1,223 @@
+@font-face {
+    font-family: 'CHelvetica Arabic';
+    src: url('../fonts/alfont_com_هلفيتيكا-عربي-.ttf');
+}
+
+* {
+    font-family: 'CHelvetica Arabic';
+}
+
+
+
+.navbar__color{
+    background-color: #E7C139;
+    height: 100px;
+}
+
+
+.active__nav__item{
+    border-bottom: 2px black solid;
+}
+
+
+.link__color{
+    color: #064268;
+ font-size: 20px;
+}
+
+
+.img__part {
+    height: 200px;
+}
+
+
+
+.footer__bg{
+    background-color: #064268;
+}
+
+
+.footer_link__group{
+    gap: 10px !important;
+}
+
+
+.icon__color{
+    color: red;
+}
+
+.social__link{
+    gap: 10px;
+}
+
+
+
+
+
+/*for-services-page*/
+.service_link{
+    background-color: #c9c9c99f;
+}
+
+
+.service_link:hover{
+        background-color: black;
+        transition: all 200ms ease-in-out;
+}
+
+
+.fill_hover{
+    fill: #e7c139;
+}
+
+
+.service_link:hover .fill_hover{
+    fill: #fff;
+}
+
+
+.service_link:hover p{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+/*for-guide-page*/
+.dir__icon{
+    color: #064268;
+}
+
+
+.text_color_blue{
+    color: #064268;
+}
+
+
+.map__part{
+    background-color: #dddbdb3f;
+}
+
+.contact_info{
+    background-color: #dddbdb3f ;
+}
+
+.imges_gallary img{
+width: 24%;
+height: 100px;
+object-fit: cover;
+}
+
+
+@media (max-width:768px) {
+  .imges_gallary{ 
+      gap: 10px;
+       flex-direction: column;
+    }  
+
+    .imges_gallary img{
+width: 100%;
+height: 250px;
+    }
+}
+
+
+
+.search_input{
+    border: 1px solid rgba(128, 128, 128, 0.425);
+}
+
+
+.page_number{
+gap: 30px;
+}
+
+.current_page{
+    background-color: #E7C139;
+    width: 20px;
+}
+
+
+
+
+
+/*for-contact-page*/
+.main__form__part{
+    height: 450px;
+}
+
+
+@media (max-width:768px) {
+    .main__form__part{
+        height: auto;
+    }
+    .empty__part .horse__img{
+        position: static !important;
+        margin: auto;
+    }
+}
+
+
+.form__part{
+    background-color: #e4e1e1bb;
+}
+
+
+.msg__input{
+    height: 150px !important;
+}
+
+
+.contact-btn{
+    background-color: #07324C;
+    width: 150px;
+}
+
+
+.empty__part{
+    background-color: #E7C139;
+}
+
+
+.horse__img{
+    inset: 0;
+    right: -50px;
+    top: 100px;
+}
+
+
+.events__2021{
+    background-color: #07324C;
+}
+
+.event__month{
+    gap: 12px;
+}
+
+.month__bg{
+    background-color: #064268;
+    width: 70px;
+}
+
+.date__part{
+    background-color: #E7C139;
+    width: 150px;
+}
+
+.text__part{
+    background-color: #F7F5F5;
+}
+
+
+
+
+
+
+
+
+
+
