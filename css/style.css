@@ -61,26 +61,15 @@
 
 
 .service_link:hover{
-        background-color: black;
+        background-color: #e2e2e269;
         transition: all 200ms ease-in-out;
 }
 
 
 .fill_hover{
     fill: #e7c139;
+    stroke: #E7C139;
 }
-
-
-.service_link:hover .fill_hover{
-    fill: #fff;
-}
-
-
-.service_link:hover p{
-    color: #fff;
-}
-
-
 
 
 
