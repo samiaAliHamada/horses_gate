@@ -7,7 +7,9 @@
     font-family: 'CHelvetica Arabic';
 }
 
-
+* img{
+    object-fit: cover
+}
 
 .navbar__color{
     background-color: #E7C139;
@@ -71,6 +73,20 @@
     stroke: #E7C139;
 }
 
+
+
+
+
+
+
+.current_service {
+    background-color: rgb(0, 0, 0);
+}
+
+
+.current_service p{
+    color: #fff;
+}
 
 
 
