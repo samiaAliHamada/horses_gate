@@ -54,9 +54,7 @@
 
 
 .bottom_navbar{
-    bottom: 0px;
     background-color: rgba(255, 255, 255, 0.966);
-    gap: 20px;
 display: none !important;
 }
 
@@ -73,7 +71,7 @@ display: none !important;
 
 
 .current_b_nav_icon{
-    color: #E7C139 !important;
+    color: #064268 !important;
 }
 
 
