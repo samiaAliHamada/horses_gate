@@ -28,10 +28,10 @@
 }
 
 
-.img__part {
-    height: 200px;
+.card_btn{
+    background-color: #E7C139;
+    width: 150px;
 }
-
 
 
 .footer__bg{
@@ -53,6 +53,28 @@
 }
 
 
+.bottom_navbar{
+    bottom: 0px;
+    background-color: rgba(255, 255, 255, 0.966);
+    gap: 20px;
+display: none !important;
+}
+
+
+@media (max-width:768px) {
+    .bottom_navbar{
+        bottom: 0px;
+        background-color: rgba(255, 255, 255, 0.966);
+        gap: 20px;
+        display: flex !important;
+    } 
+}
+
+
+
+.b_nav_icon{
+    color: #E7C139 !important;
+}
 
 
 
