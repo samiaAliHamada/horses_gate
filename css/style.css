@@ -28,9 +28,110 @@
 }
 
 
+.card_btn_bg_black{
+    width: 110px;
+    background-color: black;
+}
+
+
+.card_btn_bg_blue{
+    width: 110px;
+    background-color: #064268;
+}
+
+
+.card_btn_bg_yellow{
+    width: 130px;
+    background-color: #E7C139;
+}
+
+
+.text_card_size{
+    font-size: 12px;
+}
+
+
+.left_side{
+    height: 340px; 
+}
+
+
 .card_btn{
     background-color: #E7C139;
+    width: 160px;
+}
+
+
+.news_part{
+    background-image: url(../images/Mask\ Group\ 4.png);
+   height: 200px;
+}
+
+
+.news input{
+    height: 38px;
+    width: 250px;
+}
+
+
+.news_btn{
+    background-color: #E7C139;
+}
+
+
+.news_headline_yellow{
+    background-color: #E7C139;
+    width: 95px;
+    height: 30px;
+}
+
+
+.text__yellow{
+    color: #E7C139;
+}
+
+
+.services_part{
+    background-image: url(../images/Mask\ Group\ 8.png);
+height: 300px;
+}
+
+
+.services{
+    gap: 10px;
+}
+
+
+.service_box{
+    background-color: rgba(255, 255, 255, 0.349);
+    width: 110px;
+    height: 110px;
+}
+
+
+.blue_headline {
+    background-color: #064268;
     width: 150px;
+    height: 30px;
+}
+
+
+.text__blue{
+    color: #064268;
+}
+
+
+.media_part{
+    height: 420px;
+    background-color: #E7C139;
+}
+
+
+@media (max-width:768px) {
+    .media_part{
+        height: 1000px;
+        background-color: #E7C139;
+    }
 }
 
 
@@ -238,6 +339,20 @@ gap: 30px;
     background-color: #F7F5F5;
 }
 
+.horse_news{
+    background-color: #E7C139;
+}
+
+
+.latest_videos{
+    background-color: #023657;
+    height: 50px;
+}
+
+
+.yt-icon{
+    font-size: 40px;
+}
 
 
 
