@@ -11,6 +11,9 @@
     object-fit: cover
 }
 
+
+
+/*for-home-page*/
 .navbar__color{
     background-color: #E7C139;
     height: 100px;
@@ -129,7 +132,7 @@ height: 300px;
 
 @media (max-width:768px) {
     .media_part{
-        height: 1000px;
+        height: 980px;
         background-color: #E7C139;
     }
 }
@@ -353,12 +356,5 @@ gap: 30px;
 .yt-icon{
     font-size: 40px;
 }
-
-
-
-
-
-
-
 
 
