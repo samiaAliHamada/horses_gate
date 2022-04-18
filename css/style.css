@@ -112,6 +112,13 @@ height: 300px;
 }
 
 
+
+.service_box:hover {
+    background-color: rgba(255, 255, 255, 0.096);
+    transition: 0.5s ease-in-out;
+}
+
+
 .blue_headline {
     background-color: #064268;
     width: 150px;
@@ -137,6 +144,16 @@ height: 300px;
     }
 }
 
+
+.media_test{
+    background-color: #E7C139;
+    height: auto;
+}
+
+
+.media_imgs{
+    gap: 5px;
+}
 
 .footer__bg{
     background-color: #064268;
