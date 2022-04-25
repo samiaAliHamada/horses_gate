@@ -340,7 +340,6 @@ background-color: #E7C139;
 .imges_gallary img{
 width: 24%;
 height: 100px;
-object-fit: cover;
 }
 
 
