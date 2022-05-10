@@ -201,7 +201,7 @@ display: none !important;
 
 
 
-/*for_news_page*/
+/*for_news_pages*/
 .text_color_grey {
     color: #404041;
 }
@@ -259,25 +259,51 @@ background-color: #E7C139;
 }
 
 
+
+
+
+
 .news_comments{
-    width: 700px;
+    border-bottom: 2px solid rgba(145, 140, 140, 0.767);
+}
+
+.comment_form{
+    height: 450px;
+    background-color: #c5c5c55b;
+}
+
+.comment_box{
+    height: 150px;
 }
 
 
-@media (max-width:768px) {
-    .news_comments{
-        width: 500px;
-    }
+.comment_input::placeholder{
+    font-size: 18px;
+    color: #999393;
+}
+
+.comment_btn{
+width: 200px;
+background-color: #404041;
 }
 
 
-@media (max-width:530px) {
-    .news_comments{
-        width: 350px;
-        justify-content: center;
-        
-    }
+
+
+
+/*fro-events-page*/
+.event_btn{
+    background-color: #E7C139;
+    width: 85px;
+    height: 30px;
 }
+
+.event_btn_bg_light{
+    width: 130px;
+    height: 35px;
+    background-color: #eeeded;
+}
+
 
 
 
