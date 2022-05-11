@@ -315,11 +315,15 @@ background-color: #404041;
 
 
 .event_btn_bg_light{
-    width: 130px;
-    height: 35px;
+    width: 220px;
+    height: 40px;
     background-color: #eeeded;
 }
 
+
+.text_resize{
+    font-size: 5px;
+}
 
 
 
