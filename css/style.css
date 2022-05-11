@@ -13,6 +13,9 @@
 
 
 
+
+
+
 /*for-home-page*/
 .navbar__color{
     background-color: #E7C139;
@@ -109,13 +112,13 @@ height: 350px;
     background-color: rgba(255, 255, 255, 0.349);
     width: 110px;
     height: 110px;
-}
+    transition: 0.2s ease-in-out;
 
+}
 
 
 .service_box:hover {
     background-color: rgba(255, 255, 255, 0.096);
-    transition: 0.5s ease-in-out;
 }
 
 
@@ -155,6 +158,7 @@ height: 350px;
     gap: 5px;
 }
 
+
 .footer__bg{
     background-color: #064268;
 }
@@ -168,6 +172,7 @@ height: 350px;
 .icon__color{
     color: red;
 }
+
 
 .social__link{
     gap: 10px;
@@ -196,10 +201,23 @@ display: none !important;
 }
 
 
+.shadow_hov{
+    transition: 0.3s all ease-in-out;
+}
+
+.shadow_hov:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
 
 
+.shadow_hov_2{
+    transition: 0.3s all ease-in-out;
+}
 
 
+.shadow_hov_2:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+}
 
 /*for_news_pages*/
 .text_color_grey {
@@ -211,10 +229,6 @@ display: none !important;
 gap: 15px;
 }
 
-
-@media (max-width:) {
-    
-}
 
 .yellow_news_btn{
     width: 120px;
@@ -262,10 +276,10 @@ background-color: #E7C139;
 
 
 
-
 .news_comments{
     border-bottom: 2px solid rgba(145, 140, 140, 0.767);
 }
+
 
 .comment_form{
     height: 450px;
@@ -282,6 +296,7 @@ background-color: #E7C139;
     color: #999393;
 }
 
+
 .comment_btn{
 width: 200px;
 background-color: #404041;
@@ -291,12 +306,13 @@ background-color: #404041;
 
 
 
-/*fro-events-page*/
+/*for-events-page*/
 .event_btn{
     background-color: #E7C139;
     width: 85px;
     height: 30px;
 }
+
 
 .event_btn_bg_light{
     width: 130px;
@@ -311,12 +327,12 @@ background-color: #404041;
 /*for-services-page*/
 .service_link{
     background-color: #c9c9c99f;
+    transition: all 0.2s ease-in-out;
 }
 
 
 .service_link:hover{
         background-color: #e2e2e269;
-        transition: all 200ms ease-in-out;
 }
 
 
@@ -324,11 +340,6 @@ background-color: #404041;
     fill: #e7c139;
     stroke: #E7C139;
 }
-
-
-
-
-
 
 
 .current_service {
@@ -344,7 +355,7 @@ background-color: #404041;
 
 
 
-/*for-guide-page*/
+/*for-stud-guide-page*/
 .dir__icon{
     color: #064268;
 }
@@ -359,9 +370,11 @@ background-color: #404041;
     background-color: #dddbdb3f;
 }
 
+
 .contact_info{
     background-color: #dddbdb3f ;
 }
+
 
 .imges_gallary img{
 width: 24%;
@@ -391,6 +404,7 @@ height: 250px;
 .page_number{
 gap: 30px;
 }
+
 
 .current_page{
     background-color: #E7C139;
@@ -450,23 +464,28 @@ gap: 30px;
     background-color: #07324C;
 }
 
+
 .event__month{
     gap: 12px;
 }
+
 
 .month__bg{
     background-color: #064268;
     width: 70px;
 }
 
+
 .date__part{
     background-color: #E7C139;
     width: 150px;
 }
 
+
 .text__part{
     background-color: #F7F5F5;
 }
+
 
 .horse_news{
     background-color: #E7C139;
@@ -482,5 +501,3 @@ gap: 30px;
 .yt-icon{
     font-size: 40px;
 }
-
-
